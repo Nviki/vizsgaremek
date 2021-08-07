@@ -1,12 +1,14 @@
-import static org.junit.jupiter.api.Assertions.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
-import java.time.Duration;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WikipediaTest {
 
@@ -34,7 +36,7 @@ public class WikipediaTest {
     @Test
     public void WebTest() {
         String url = driver.getCurrentUrl();
-        assertEquals("https://en.wikipedia.org/", url);
+        assertEquals("https://en.wikipedia.org/wiki/Main_Page", url);
     }
 
 
@@ -74,16 +76,4 @@ public class WikipediaTest {
         driver.quit();
     }
 
-
-    /*@Test
-    public void loginWikipedia() {
-        testWikipedia();
-        String username = "naszviki.mt@gmail.com";
-        String password = "Vikitesztel123!";
-        driver.findElement(By.id("pt-login")).click();
-        driver.findElement(By.id("wpName1")).sendKeys(username);
-        driver.findElement(By.id("wpPassword1")).sendKeys(password);
-        driver.findElement(By.id("wpLoginAttempt")).click();
-        Assertions.assertEquals(username, driver.findElement((By.xpath("//*[@id=\"pt-userpage\"]/a"))).getText());
-    }*/
 }
