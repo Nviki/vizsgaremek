@@ -1,0 +1,123 @@
+{
+  "uid" : "165158b5a7b494ae",
+  "name" : "WebTest()",
+  "fullName" : "WikipediaTest.WebTest",
+  "historyId" : "a9cead5ec18072c8cc9bb679cddb27d7",
+  "time" : {
+    "start" : 1628369355357,
+    "stop" : 1628369356018,
+    "duration" : 661
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriverProperty",
+    "time" : {
+      "start" : 1628369334929,
+      "stop" : 1628369334930,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1628369355357,
+      "stop" : 1628369355941,
+      "duration" : 584
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1628369355950,
+      "stop" : 1628369356018,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-873"
+  }, {
+    "name" : "thread",
+    "value" : "3015@fv-az28-873.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "WebTest"
+  }, {
+    "name" : "suite",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "85e378fc5fe674d4",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/2//#testresult/85e378fc5fe674d4",
+        "status" : "failed",
+        "statusDetails" : "expected: <https://en.wikipedia.org/> but was: <https://en.wikipedia.org/wiki/Main_Page>",
+        "time" : {
+          "start" : 1628342721608,
+          "stop" : 1628342722308,
+          "duration" : 700
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "165158b5a7b494ae.json",
+  "parameterValues" : [ ]
+}

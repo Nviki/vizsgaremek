@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=\"mw-content-text\"]/div[1]/ul[1]/li[1]/a (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "searchFramework()",
+        "uid" : "1a7d07d87a01a0c2",
+        "parentUid" : "44016ea50ab95db02f6ce5c0c3d8cdc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628369356021,
+          "stop" : 1628369367831,
+          "duration" : 11810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44016ea50ab95db02f6ce5c0c3d8cdc7"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az28-873', ip: '10.1.0.166', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x563fb14dda63 <unknown>\n#1 0x563fb1252458 <unknown>\n#2 0x563fb12752e3 <unknown>\n#3 0x563fb1270e9f <unknown>\n#4 0x563fb12aab72 <unknown>\n#5 0x563fb12a4fd3 <unknown>\n#6 0x563fb127b514 <unknown>\n#7 0x563fb127c505 <unknown>\n#8 0x563fb1509e2e <unknown>\n#9 0x563fb151f886 <unknown>\n#10 0x563fb150ad75 <unknown>\n#11 0x563fb1520d94 <unknown>\n#12 0x563fb15018eb <unknown>\n#13 0x563fb153bcd8 <unknown>\n#14 0x563fb153be58 <unknown>\n#15 0x563fb1555dfd <unknown>\n#16 0x7faae8e52609 start_thread\n",
+      "children" : [ {
+        "name" : "Test_Login()",
+        "uid" : "bffdcef0ae7dfa7f",
+        "parentUid" : "a57c286c473a67e914b3f97676592e43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628369369553,
+          "stop" : 1628369371146,
+          "duration" : 1593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a57c286c473a67e914b3f97676592e43"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "WikipediaTest",
+    "children" : [ {
+      "name" : "loginWikipedia()",
+      "uid" : "7e4e2b7ab13515d2",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628369334953,
+        "stop" : 1628369355292,
+        "duration" : 20339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "WebTest()",
+      "uid" : "165158b5a7b494ae",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628369355357,
+        "stop" : 1628369356018,
+        "duration" : 661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchFramework()",
+      "uid" : "1a7d07d87a01a0c2",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628369356021,
+        "stop" : 1628369367831,
+        "duration" : 11810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchSelenium()",
+      "uid" : "4db74eef45991f5a",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628369367839,
+        "stop" : 1628369369546,
+        "duration" : 1707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07cd37ecc7a1d861e13828dd1af2c076"
+  }, {
+    "name" : "Tests.TestLogin",
+    "children" : [ {
+      "name" : "Test_Login()",
+      "uid" : "bffdcef0ae7dfa7f",
+      "parentUid" : "2912992d006be159d04667582dc79365",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628369369553,
+        "stop" : 1628369371146,
+        "duration" : 1593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2912992d006be159d04667582dc79365"
+  } ],
+  "name" : "suites"
+}

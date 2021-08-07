@@ -1,0 +1,51 @@
+[ {
+  "uid" : "1a7d07d87a01a0c2",
+  "name" : "searchFramework()",
+  "time" : {
+    "start" : 1628369356021,
+    "stop" : 1628369367831,
+    "duration" : 11810
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bffdcef0ae7dfa7f",
+  "name" : "Test_Login()",
+  "time" : {
+    "start" : 1628369369553,
+    "stop" : 1628369371146,
+    "duration" : 1593
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4db74eef45991f5a",
+  "name" : "searchSelenium()",
+  "time" : {
+    "start" : 1628369367839,
+    "stop" : 1628369369546,
+    "duration" : 1707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e4e2b7ab13515d2",
+  "name" : "loginWikipedia()",
+  "time" : {
+    "start" : 1628369334953,
+    "stop" : 1628369355292,
+    "duration" : 20339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "165158b5a7b494ae",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1628369355357,
+    "stop" : 1628369356018,
+    "duration" : 661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

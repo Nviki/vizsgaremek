@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Aug 07 20:49:27 GMT 2021","Sat Aug 07 20:49:29 GMT 2021","1707","","WikipediaTest","","WikipediaTest","searchSelenium","searchSelenium()",""
+"broken","Sat Aug 07 20:49:16 GMT 2021","Sat Aug 07 20:49:27 GMT 2021","11810","","WikipediaTest","","WikipediaTest","searchFramework","searchFramework()",""
+"passed","Sat Aug 07 20:48:54 GMT 2021","Sat Aug 07 20:49:15 GMT 2021","20339","","WikipediaTest","","WikipediaTest","loginWikipedia","loginWikipedia()",""
+"broken","Sat Aug 07 20:49:29 GMT 2021","Sat Aug 07 20:49:31 GMT 2021","1593","","Tests.TestLogin","","Tests.TestLogin","Test_Login","Test_Login()",""
+"passed","Sat Aug 07 20:49:15 GMT 2021","Sat Aug 07 20:49:16 GMT 2021","661","","WikipediaTest","","WikipediaTest","WebTest","WebTest()",""
