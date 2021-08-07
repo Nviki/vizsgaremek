@@ -1,0 +1,71 @@
+[ {
+  "uid" : "586909c981e8e262",
+  "name" : "WebTest2()",
+  "time" : {
+    "start" : 1628342730771,
+    "stop" : 1628342735262,
+    "duration" : 4491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6c849730198a4e3",
+  "name" : "searchFramework()",
+  "time" : {
+    "start" : 1628342722319,
+    "stop" : 1628342724466,
+    "duration" : 2147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85e378fc5fe674d4",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1628342721608,
+    "stop" : 1628342722308,
+    "duration" : 700
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c98b1f0e6bdc1397",
+  "name" : "WebTest3()",
+  "time" : {
+    "start" : 1628342735268,
+    "stop" : 1628342739042,
+    "duration" : 3774
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d36fe8c7fd91b345",
+  "name" : "loginWikipedia()",
+  "time" : {
+    "start" : 1628342708335,
+    "stop" : 1628342721533,
+    "duration" : 13198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8da6c4364f763add",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1628342726249,
+    "stop" : 1628342730766,
+    "duration" : 4517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eb4bc2d5358ea88",
+  "name" : "searchSelenium()",
+  "time" : {
+    "start" : 1628342724469,
+    "stop" : 1628342726240,
+    "duration" : 1771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

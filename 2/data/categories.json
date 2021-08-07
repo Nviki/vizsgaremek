@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <https://en.wikipedia.org/> but was: <https://en.wikipedia.org/wiki/Main_Page>",
+      "children" : [ {
+        "name" : "WebTest()",
+        "uid" : "85e378fc5fe674d4",
+        "parentUid" : "c1d294c2cf941ac2d2cc471d35331e18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628342721608,
+          "stop" : 1628342722308,
+          "duration" : 700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c1d294c2cf941ac2d2cc471d35331e18"
+    }, {
+      "name" : "expected: <https://codecool.com/> but was: <https://codecool.com/hu/>",
+      "children" : [ {
+        "name" : "WebTest3()",
+        "uid" : "c98b1f0e6bdc1397",
+        "parentUid" : "7de67859fb75519929b4ad774c2336f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628342735268,
+          "stop" : 1628342739042,
+          "duration" : 3774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7de67859fb75519929b4ad774c2336f3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
