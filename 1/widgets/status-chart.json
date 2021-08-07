@@ -1,0 +1,31 @@
+[ {
+  "uid" : "e27c234b8e62d48f",
+  "name" : "WebTest3()",
+  "time" : {
+    "start" : 1628341274135,
+    "stop" : 1628341277627,
+    "duration" : 3492
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "82b3d78055c40d8d",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1628341253395,
+    "stop" : 1628341269488,
+    "duration" : 16093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36ffc557552156db",
+  "name" : "WebTest2()",
+  "time" : {
+    "start" : 1628341269569,
+    "stop" : 1628341274130,
+    "duration" : 4561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

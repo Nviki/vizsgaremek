@@ -1,0 +1,63 @@
+{
+  "5f24304d996bf3b7405a2d2b78a4140f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e27c234b8e62d48f",
+      "reportUrl" : "https://Nviki.github.io/vizsgaremek/1//#testresult/e27c234b8e62d48f",
+      "status" : "failed",
+      "statusDetails" : "expected: <https://codecool.com/> but was: <https://codecool.com/hu/>",
+      "time" : {
+        "start" : 1628341274135,
+        "stop" : 1628341277627,
+        "duration" : 3492
+      }
+    } ]
+  },
+  "9bd206c1a57cb3c56385332d547f3d96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82b3d78055c40d8d",
+      "reportUrl" : "https://Nviki.github.io/vizsgaremek/1//#testresult/82b3d78055c40d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628341253395,
+        "stop" : 1628341269488,
+        "duration" : 16093
+      }
+    } ]
+  },
+  "fbe96e996e4eb3ecebc116542285098d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36ffc557552156db",
+      "reportUrl" : "https://Nviki.github.io/vizsgaremek/1//#testresult/36ffc557552156db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628341269569,
+        "stop" : 1628341274130,
+        "duration" : 4561
+      }
+    } ]
+  }
+}
