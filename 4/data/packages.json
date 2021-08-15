@@ -1,0 +1,150 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "WikipediaTest",
+    "children" : [ {
+      "name" : "loginWikipedia",
+      "uid" : "f713a3f37fb08c3b",
+      "parentUid" : "7b079e1c2ee5ab6bc2c8a7301a78f200",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629071675554,
+        "stop" : 1629071691453,
+        "duration" : 15899
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "WebTest",
+      "uid" : "e30392943213b65",
+      "parentUid" : "7b079e1c2ee5ab6bc2c8a7301a78f200",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629071691540,
+        "stop" : 1629071692278,
+        "duration" : 738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchFramework",
+      "uid" : "f828c2e1cf35feb0",
+      "parentUid" : "7b079e1c2ee5ab6bc2c8a7301a78f200",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629071692282,
+        "stop" : 1629071694536,
+        "duration" : 2254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchSelenium",
+      "uid" : "61ef840b31a0c58a",
+      "parentUid" : "7b079e1c2ee5ab6bc2c8a7301a78f200",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629071694540,
+        "stop" : 1629071696406,
+        "duration" : 1866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7b079e1c2ee5ab6bc2c8a7301a78f200"
+  }, {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "TestLogin",
+      "children" : [ {
+        "name" : "Test_Login",
+        "uid" : "d7e1c8559f92815f",
+        "parentUid" : "5885032356280bf08f9b0d65f6aeea54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629071696413,
+          "stop" : 1629071697604,
+          "duration" : 1191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5885032356280bf08f9b0d65f6aeea54"
+    }, {
+      "name" : "TestPrivacyPolicy",
+      "children" : [ {
+        "name" : "Test_PrivacyPolicy",
+        "uid" : "f8f15190bfbc7432",
+        "parentUid" : "89dba28e6ffe7d8b018fc5d4037e3dca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629071697615,
+          "stop" : 1629071697757,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89dba28e6ffe7d8b018fc5d4037e3dca"
+    }, {
+      "name" : "TestRegistration",
+      "children" : [ {
+        "name" : "Test_RegistrationWithValidData",
+        "uid" : "fb4fc31a86ffdb36",
+        "parentUid" : "aec9a2253a7ee2dcb9f38450f6b8e91f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629071697783,
+          "stop" : 1629071697960,
+          "duration" : 177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aec9a2253a7ee2dcb9f38450f6b8e91f"
+    }, {
+      "name" : "TestMainPageHistory",
+      "children" : [ {
+        "name" : "Test_MainPageHistory",
+        "uid" : "65570e5f921491e8",
+        "parentUid" : "dfcc3efde2e37657170417eda64fdc1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629071697966,
+          "stop" : 1629071698109,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dfcc3efde2e37657170417eda64fdc1c"
+    }, {
+      "name" : "TestLanguage",
+      "children" : [ {
+        "name" : "Test_Language",
+        "uid" : "d628610bcc6907f7",
+        "parentUid" : "c79fc0193c84b8fca3d4e76b0427cc88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629071698128,
+          "stop" : 1629071698286,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c79fc0193c84b8fca3d4e76b0427cc88"
+    } ],
+    "uid" : "fc39173c9dc08e281c680147b63fcad9"
+  } ],
+  "name" : "packages"
+}

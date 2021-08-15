@@ -1,0 +1,132 @@
+{
+  "uid" : "f828c2e1cf35feb0",
+  "name" : "searchFramework()",
+  "fullName" : "WikipediaTest.searchFramework",
+  "historyId" : "3eb7461cf831a3ffaea0115bcb98eb9",
+  "time" : {
+    "start" : 1629071692282,
+    "stop" : 1629071694536,
+    "duration" : 2254
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriverProperty",
+    "time" : {
+      "start" : 1629071675519,
+      "stop" : 1629071675521,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629071692282,
+      "stop" : 1629071692914,
+      "duration" : 632
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629071694468,
+      "stop" : 1629071694536,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az81-606"
+  }, {
+    "name" : "thread",
+    "value" : "3074@fv-az81-606.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchFramework"
+  }, {
+    "name" : "suite",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1a7d07d87a01a0c2",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/3//#testresult/1a7d07d87a01a0c2",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=\"mw-content-text\"]/div[1]/ul[1]/li[1]/a (tried for 10 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1628369356021,
+          "stop" : 1628369367831,
+          "duration" : 11810
+        }
+      }, {
+        "uid" : "f6c849730198a4e3",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/2//#testresult/f6c849730198a4e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628342722319,
+          "stop" : 1628342724466,
+          "duration" : 2147
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f828c2e1cf35feb0.json",
+  "parameterValues" : [ ]
+}
