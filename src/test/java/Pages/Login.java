@@ -15,10 +15,10 @@ public class Login {
     }
 
     //methods
-    public void Login() {
+    public void Login(String username, String password) {
         if (Methods.waitingForLoad(Constant.LOGIN_BUTTON, driver)){
-             driver.findElement(Constant.LOGIN_USERNAME).sendKeys(Constant.LOGIN_USERNAME_VALUE);
-             driver.findElement(Constant.LOGIN_PASSWORD).sendKeys(Constant.LOGIN_PASSWORD_VALUE);
+             driver.findElement(Constant.LOGIN_USERNAME).sendKeys(username);
+             driver.findElement(Constant.LOGIN_PASSWORD).sendKeys(password);
              driver.findElement(Constant.LOGIN_BUTTON).click();
         } else {
             System.out.println("Error number 2");

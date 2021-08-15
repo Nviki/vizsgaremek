@@ -1,6 +1,7 @@
 package Tests;
 
 import General.Constant;
+import General.Methods;
 import Pages.HomePage;
 import Pages.Login;
 import TestEnvironment.TestEnvironment;
@@ -16,10 +17,10 @@ public class TestLogin extends TestEnvironment {
     public void Test_Login(){
         homePage = new HomePage(driver);
         homePage.clickLoginLink();
-        Assertions.assertEquals(Constant.HOME_LOGIN_URL,driver.getCurrentUrl(),"Error_1");
+        Assertions.assertEquals(Constant.HOME_LOGIN_URL,driver.getCurrentUrl(),"Wrong URL.");
 
         login = new Login(driver);
-        login.Login();
+        login.Login(Constant.LOGIN_USERNAME_VALUE, Constant.LOGIN_PASSWORD_VALUE);
 
         String expected = Constant.LOGIN_USERNAME_VALUE;
         String actual = driver.findElement(Constant.LOGIN_USERNAME_COMPARE).getText();

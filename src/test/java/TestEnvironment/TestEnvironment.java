@@ -24,7 +24,7 @@ public class TestEnvironment {
         options.addArguments("start-maximized"); // teljes képernyőőben való használat
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        //options.addArguments("--headless");  //a gitHub használatához tedd vissza
+        //options.addArguments("--headless");  //a gitHub használatához visszatenni
         driver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
 
         driver.navigate().to(Constant.MAIN_URL);
@@ -32,8 +32,8 @@ public class TestEnvironment {
         driver.manage().window().maximize();
     }
 
-    @AfterEach
+    /*@AfterEach
     void quitDriver() {
         driver.quit();
-    }
+    }*/
 }
