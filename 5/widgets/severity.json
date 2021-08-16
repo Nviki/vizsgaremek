@@ -1,0 +1,91 @@
+[ {
+  "uid" : "429801e448d3b273",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1629072985645,
+    "stop" : 1629072986344,
+    "duration" : 699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a43869e601656f03",
+  "name" : "searchSelenium()",
+  "time" : {
+    "start" : 1629072988170,
+    "stop" : 1629072989642,
+    "duration" : 1472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bf5efe99e9627aa",
+  "name" : "Test_Login()",
+  "time" : {
+    "start" : 1629072989649,
+    "stop" : 1629072990822,
+    "duration" : 1173
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ef5dcaff3fc2c0d9",
+  "name" : "Test_Language()",
+  "time" : {
+    "start" : 1629072991336,
+    "stop" : 1629072991484,
+    "duration" : 148
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "50f169086aeeee59",
+  "name" : "loginWikipedia()",
+  "time" : {
+    "start" : 1629072968728,
+    "stop" : 1629072985586,
+    "duration" : 16858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "253b406c7dbe0e47",
+  "name" : "searchFramework()",
+  "time" : {
+    "start" : 1629072986348,
+    "stop" : 1629072988167,
+    "duration" : 1819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee71c371cf15163d",
+  "name" : "Test_PrivacyPolicy()",
+  "time" : {
+    "start" : 1629072990840,
+    "stop" : 1629072990997,
+    "duration" : 157
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e67fc63de49d9e60",
+  "name" : "Test_MainPageHistory()",
+  "time" : {
+    "start" : 1629072991162,
+    "stop" : 1629072991318,
+    "duration" : 156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87050deab60b3f28",
+  "name" : "Test_RegistrationWithValidData()",
+  "time" : {
+    "start" : 1629072991011,
+    "stop" : 1629072991147,
+    "duration" : 136
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
