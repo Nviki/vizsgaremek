@@ -1,6 +1,6 @@
 package Pages;
 
-import General.Constant;
+import General.Constants;
 import General.Methods;
 import org.openqa.selenium.WebDriver;
 
@@ -16,16 +16,16 @@ public class HomePage {
 
     //methods
     public void clickLoginLink(){
-        if (Methods.waitingForLoad(Constant.HOME_LOGIN_LINK, driver)){
-            driver.findElement(Constant.HOME_LOGIN_LINK).click();
+        if (Methods.waitingForLoad(Constants.HOME_LOGIN_LINK, driver)){
+            driver.findElement(Constants.HOME_LOGIN_LINK).click();
         }else{
             System.out.println("Cannot find login link.");
         }
     }
 
     public void ClickRegLink() {
-        if (Methods.waitingForLoad(Constant.REG_CREATE_ACC_LINK, driver)){
-            driver.findElement(Constant.REG_CREATE_ACC_LINK).click();
+        if (Methods.waitingForLoad(Constants.REG_CREATE_ACC_LINK, driver)){
+            driver.findElement(Constants.REG_CREATE_ACC_LINK).click();
         }else{
             System.out.println("Cannot find registration link.");
         }

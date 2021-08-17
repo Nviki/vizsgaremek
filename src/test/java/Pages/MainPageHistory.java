@@ -1,10 +1,8 @@
 package Pages;
 
-import General.Constant;
+import General.Constants;
 import General.Methods;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPageHistory {
 
@@ -15,10 +13,11 @@ public class MainPageHistory {
     }
 
     public void MainPageHistory () {
-        if (Methods.waitingForLoad(Constant.MPH_lINK, driver)){
-            driver.findElement(Constant.MPH_lINK).click();
+        if (Methods.waitingForLoad(Constants.MPH_lINK, driver)){
+            driver.findElement(Constants.MPH_lINK).click();
         } else {
             System.out.println("Cannot find Main Page View History link.");
         }
+
     }
 }

@@ -1,0 +1,1 @@
+{"uuid":"a3315330-1884-4477-814b-707ae6028ed7","name":"Nyelv megváltoztatása angolról magyarra.","children":["5473df24-949f-4007-8397-1ffee472c0b4"],"befores":[{"name":"setDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629192258597,"stop":1629192262233}],"afters":[],"links":[],"start":1629192258412,"stop":1629192275818}

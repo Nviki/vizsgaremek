@@ -1,9 +1,8 @@
 package TestEnvironment;
 
-import General.Constant;
+import General.Constants;
 import Pages.HomePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,7 +26,7 @@ public class TestEnvironment {
         //options.addArguments("--headless");  //a gitHub használatához visszatenni
         driver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
 
-        driver.navigate().to(Constant.MAIN_URL);
+        driver.navigate().to(Constants.MAIN_URL);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }

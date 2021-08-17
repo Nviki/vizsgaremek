@@ -25,7 +25,7 @@ public class WikipediaTest {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options=new ChromeOptions();
         //options.addArguments("--disable-notifications");
-        options.addArguments("start-maximized"); // teljes képernyőőben való használat
+        options.addArguments("start-maximized"); // teljes képernyőben való használat
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
@@ -64,8 +64,8 @@ public class WikipediaTest {
         //WebDriverWait wait = new WebDriverWait(driver, 5);
         driver.findElement(By.id("searchInput")).sendKeys("Framework");
         driver.findElement(By.id("searchInput")).sendKeys(Keys.ENTER);
-        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mw-content-text\"]/div[1]/ul[1]/li[1]/a")));
 
+        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mw-content-text\"]/div[1]/ul[1]/li[1]/a")));
         driver.findElement(By.xpath("//*[@id=\"mw-content-text\"]/div[1]/ul[1]/li[1]/a")).click();
 
         Assertions.assertEquals("https://en.wikipedia.org/wiki/Ajax_(programming)", driver.getCurrentUrl());

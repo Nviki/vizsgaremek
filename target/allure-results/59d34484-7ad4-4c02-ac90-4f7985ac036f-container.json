@@ -1,0 +1,1 @@
+{"uuid":"59d34484-7ad4-4c02-ac90-4f7985ac036f","name":"Bejelentkezés","children":["4151e583-67e8-4b4e-bed4-14b4b23bb0ee"],"befores":[{"name":"setDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629192548625,"stop":1629192553102}],"afters":[],"links":[],"start":1629192548389,"stop":1629192559813}
