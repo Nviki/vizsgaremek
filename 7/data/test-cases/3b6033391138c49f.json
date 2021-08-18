@@ -1,0 +1,158 @@
+{
+  "uid" : "3b6033391138c49f",
+  "name" : "searchSelenium()",
+  "fullName" : "WikipediaTest.searchSelenium",
+  "historyId" : "50b0b385a534904db16bedf117c73ca2",
+  "time" : {
+    "start" : 1629321108603,
+    "stop" : 1629321110137,
+    "duration" : 1534
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriverProperty",
+    "time" : {
+      "start" : 1629321086937,
+      "stop" : 1629321086943,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629321108604,
+      "stop" : 1629321109176,
+      "duration" : 572
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629321110068,
+      "stop" : 1629321110136,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-831"
+  }, {
+    "name" : "thread",
+    "value" : "2898@fv-az83-831.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchSelenium"
+  }, {
+    "name" : "suite",
+    "value" : "WikipediaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "9318376138c6dec0",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/6//#testresult/9318376138c6dec0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629073390549,
+          "stop" : 1629073392368,
+          "duration" : 1819
+        }
+      }, {
+        "uid" : "a43869e601656f03",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/5//#testresult/a43869e601656f03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629072988170,
+          "stop" : 1629072989642,
+          "duration" : 1472
+        }
+      }, {
+        "uid" : "61ef840b31a0c58a",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/4//#testresult/61ef840b31a0c58a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629071694540,
+          "stop" : 1629071696406,
+          "duration" : 1866
+        }
+      }, {
+        "uid" : "4db74eef45991f5a",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/3//#testresult/4db74eef45991f5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628369367839,
+          "stop" : 1628369369546,
+          "duration" : 1707
+        }
+      }, {
+        "uid" : "9eb4bc2d5358ea88",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/2//#testresult/9eb4bc2d5358ea88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628342724469,
+          "stop" : 1628342726240,
+          "duration" : 1771
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3b6033391138c49f.json",
+  "parameterValues" : [ ]
+}

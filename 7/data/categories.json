@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.92', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5648e31faa63 <unknown>\n#1 0x5648e2f6f458 <unknown>\n#2 0x5648e2f922e3 <unknown>\n#3 0x5648e2f8de9f <unknown>\n#4 0x5648e2fc7b72 <unknown>\n#5 0x5648e2fc1fd3 <unknown>\n#6 0x5648e2f98514 <unknown>\n#7 0x5648e2f99505 <unknown>\n#8 0x5648e3226e2e <unknown>\n#9 0x5648e323c886 <unknown>\n#10 0x5648e3227d75 <unknown>\n#11 0x5648e323dd94 <unknown>\n#12 0x5648e321e8eb <unknown>\n#13 0x5648e3258cd8 <unknown>\n#14 0x5648e3258e58 <unknown>\n#15 0x5648e3272dfd <unknown>\n#16 0x7fce70c80609 start_thread\n",
+      "children" : [ {
+        "name" : "Adatkezelési nyilatkozat használata",
+        "uid" : "ce112f3805a26d99",
+        "parentUid" : "630b6027471991c4e5c82c68ae1f3d3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629321086916,
+          "stop" : 1629321091444,
+          "duration" : 4528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "630b6027471991c4e5c82c68ae1f3d3e"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.92', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5652e0030a63 <unknown>\n#1 0x5652dfda5458 <unknown>\n#2 0x5652dfdc82e3 <unknown>\n#3 0x5652dfdc3e9f <unknown>\n#4 0x5652dfdfdb72 <unknown>\n#5 0x5652dfdf7fd3 <unknown>\n#6 0x5652dfdce514 <unknown>\n#7 0x5652dfdcf505 <unknown>\n#8 0x5652e005ce2e <unknown>\n#9 0x5652e0072886 <unknown>\n#10 0x5652e005dd75 <unknown>\n#11 0x5652e0073d94 <unknown>\n#12 0x5652e00548eb <unknown>\n#13 0x5652e008ecd8 <unknown>\n#14 0x5652e008ee58 <unknown>\n#15 0x5652e00a8dfd <unknown>\n#16 0x7ffbe3d09609 start_thread\n",
+      "children" : [ {
+        "name" : "Nyelv megváltoztatása angolról magyarra.",
+        "uid" : "4a4a0645d79be5b5",
+        "parentUid" : "4c40090e60011a220f84f13896393cc9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629321091603,
+          "stop" : 1629321091820,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c40090e60011a220f84f13896393cc9"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=\"mw-content-text\"]/div[1]/ul[1]/li[1]/a (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "searchFramework()",
+        "uid" : "14eb19957bcd615d",
+        "parentUid" : "44016ea50ab95db02f6ce5c0c3d8cdc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629321096698,
+          "stop" : 1629321108594,
+          "duration" : 11896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44016ea50ab95db02f6ce5c0c3d8cdc7"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.92', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x555766fa0a63 <unknown>\n#1 0x555766d15458 <unknown>\n#2 0x555766d382e3 <unknown>\n#3 0x555766d33e9f <unknown>\n#4 0x555766d6db72 <unknown>\n#5 0x555766d67fd3 <unknown>\n#6 0x555766d3e514 <unknown>\n#7 0x555766d3f505 <unknown>\n#8 0x555766fcce2e <unknown>\n#9 0x555766fe2886 <unknown>\n#10 0x555766fcdd75 <unknown>\n#11 0x555766fe3d94 <unknown>\n#12 0x555766fc48eb <unknown>\n#13 0x555766ffecd8 <unknown>\n#14 0x555766ffee58 <unknown>\n#15 0x555767018dfd <unknown>\n#16 0x7fa7ecf49609 start_thread\n",
+      "children" : [ {
+        "name" : "Bejelentkezés",
+        "uid" : "69b8fb4a33af43c1",
+        "parentUid" : "1613500e5c5b999764fa442301d41777",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629321110143,
+          "stop" : 1629321110297,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1613500e5c5b999764fa442301d41777"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.92', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55602d0dea63 <unknown>\n#1 0x55602ce53458 <unknown>\n#2 0x55602ce762e3 <unknown>\n#3 0x55602ce71e9f <unknown>\n#4 0x55602ceabb72 <unknown>\n#5 0x55602cea5fd3 <unknown>\n#6 0x55602ce7c514 <unknown>\n#7 0x55602ce7d505 <unknown>\n#8 0x55602d10ae2e <unknown>\n#9 0x55602d120886 <unknown>\n#10 0x55602d10bd75 <unknown>\n#11 0x55602d121d94 <unknown>\n#12 0x55602d1028eb <unknown>\n#13 0x55602d13ccd8 <unknown>\n#14 0x55602d13ce58 <unknown>\n#15 0x55602d156dfd <unknown>\n#16 0x7f088a93f609 start_thread\n",
+      "children" : [ {
+        "name" : "Regisztráció",
+        "uid" : "6b6ea582534420d5",
+        "parentUid" : "abd71ad2a981a875c28a8cce69abb57b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629321110309,
+          "stop" : 1629321110450,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abd71ad2a981a875c28a8cce69abb57b"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.92', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d82c35ca63 <unknown>\n#1 0x55d82c0d1458 <unknown>\n#2 0x55d82c0f42e3 <unknown>\n#3 0x55d82c0efe9f <unknown>\n#4 0x55d82c129b72 <unknown>\n#5 0x55d82c123fd3 <unknown>\n#6 0x55d82c0fa514 <unknown>\n#7 0x55d82c0fb505 <unknown>\n#8 0x55d82c388e2e <unknown>\n#9 0x55d82c39e886 <unknown>\n#10 0x55d82c389d75 <unknown>\n#11 0x55d82c39fd94 <unknown>\n#12 0x55d82c3808eb <unknown>\n#13 0x55d82c3bacd8 <unknown>\n#14 0x55d82c3bae58 <unknown>\n#15 0x55d82c3d4dfd <unknown>\n#16 0x7f15255f1609 start_thread\n",
+      "children" : [ {
+        "name" : "Több oldalas lista bejárása.",
+        "uid" : "106c6854ab6e3911",
+        "parentUid" : "2cb39534a4fd959ed7c2b280c45b737e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629321110473,
+          "stop" : 1629321110628,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2cb39534a4fd959ed7c2b280c45b737e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

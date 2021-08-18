@@ -1,0 +1,146 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Tests.TestPrivacyPolicy",
+    "children" : [ {
+      "name" : "Adatkezelési nyilatkozat használata",
+      "uid" : "ce112f3805a26d99",
+      "parentUid" : "11e7b48ee2c30076b9b36572f714c5cf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629321086916,
+        "stop" : 1629321091444,
+        "duration" : 4528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "11e7b48ee2c30076b9b36572f714c5cf"
+  }, {
+    "name" : "WikipediaTest",
+    "children" : [ {
+      "name" : "loginWikipedia()",
+      "uid" : "a54a935ca6098d53",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629321087022,
+        "stop" : 1629321095917,
+        "duration" : 8895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "WebTest()",
+      "uid" : "6d1b247b79044a44",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629321096006,
+        "stop" : 1629321096694,
+        "duration" : 688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchFramework()",
+      "uid" : "14eb19957bcd615d",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629321096698,
+        "stop" : 1629321108594,
+        "duration" : 11896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchSelenium()",
+      "uid" : "3b6033391138c49f",
+      "parentUid" : "07cd37ecc7a1d861e13828dd1af2c076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629321108603,
+        "stop" : 1629321110137,
+        "duration" : 1534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07cd37ecc7a1d861e13828dd1af2c076"
+  }, {
+    "name" : "Tests.TestLanguage",
+    "children" : [ {
+      "name" : "Nyelv megváltoztatása angolról magyarra.",
+      "uid" : "4a4a0645d79be5b5",
+      "parentUid" : "cb918c2e0047618fddc8afe6ba4d64cf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629321091603,
+        "stop" : 1629321091820,
+        "duration" : 217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cb918c2e0047618fddc8afe6ba4d64cf"
+  }, {
+    "name" : "Tests.TestLogin",
+    "children" : [ {
+      "name" : "Bejelentkezés",
+      "uid" : "69b8fb4a33af43c1",
+      "parentUid" : "2912992d006be159d04667582dc79365",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629321110143,
+        "stop" : 1629321110297,
+        "duration" : 154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2912992d006be159d04667582dc79365"
+  }, {
+    "name" : "Tests.TestRegistration",
+    "children" : [ {
+      "name" : "Regisztráció",
+      "uid" : "6b6ea582534420d5",
+      "parentUid" : "f004299286a2d909a5483ce3d6fd6354",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629321110309,
+        "stop" : 1629321110450,
+        "duration" : 141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f004299286a2d909a5483ce3d6fd6354"
+  }, {
+    "name" : "Tests.TestMainPageHistory",
+    "children" : [ {
+      "name" : "Több oldalas lista bejárása.",
+      "uid" : "106c6854ab6e3911",
+      "parentUid" : "b764a4dbf3d8b1c5dca9e49c92a4e62a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629321110473,
+        "stop" : 1629321110628,
+        "duration" : 155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b764a4dbf3d8b1c5dca9e49c92a4e62a"
+  } ],
+  "name" : "suites"
+}
