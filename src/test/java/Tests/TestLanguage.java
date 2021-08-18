@@ -11,6 +11,7 @@ public class TestLanguage extends TestEnvironment {
 
     private Login login;
     private Language language;
+    private TestLogin testLogin;
 
     @Test
     @DisplayName("Nyelv megváltoztatása angolról magyarra.")
@@ -19,7 +20,8 @@ public class TestLanguage extends TestEnvironment {
         homePage.clickLoginLink();
 
         login = new Login(driver);
-        login.Login(Constants.LOGIN_USERNAME_VALUE, Constants.LOGIN_PASSWORD_VALUE);
+        testLogin = new TestLogin();
+        login.Login(testLogin.LOGIN_USERNAME_VALUE, testLogin.LOGIN_PASSWORD_VALUE);
 
         language = new Language(driver);
         language.Language(Constants.LANG_VALUE);

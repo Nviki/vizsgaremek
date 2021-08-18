@@ -2,6 +2,7 @@ package General;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -15,7 +16,7 @@ public class Methods {
         return driver.findElement(value).isDisplayed();
     }
 
-    /*public static boolean waitingForLoad(ExpectedConditions condition, WebDriver driver){
+    public static boolean waitingForLoad(ExpectedCondition condition, WebDriver driver){
         boolean result = true;
         try {
             wait = new WebDriverWait(driver,10);
@@ -26,6 +27,6 @@ public class Methods {
             result = false;
         }
         return result;
-    }*/
+    }
 
 }

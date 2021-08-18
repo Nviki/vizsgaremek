@@ -1,6 +1,7 @@
 package Pages;
 
 import General.Constants;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -8,6 +9,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Language {
     private WebDriver driver;
     private WebDriverWait wait;
+    private final By LANG_PREF_lINK = By.id("pt-preferences");
+    private final By LANG_DROPDOWN = By.xpath("//*[@id=\"ooui-php-29\"]");
+    private final By LANG_SUBMIT_BUTTON = By.xpath("//*[@id=\"prefcontrol\"]/button");
 
     public Language(WebDriver driver) {
         this.driver = driver;
@@ -16,8 +20,8 @@ public class Language {
 
         wait = new WebDriverWait(driver, 10);
 
-        driver.findElement(Constants.LANG_PREF_lINK).click();
-        Select dropdown = new Select(driver.findElement(Constants.LANG_DROPDOWN));
+        driver.findElement(LANG_PREF_lINK).click();
+        Select dropdown = new Select(driver.findElement(LANG_DROPDOWN));
 
         /*List<WebElement> dd = dropdown.getOptions();
         System.out.println(dd.size());
@@ -28,6 +32,6 @@ public class Language {
         }*/
 
         dropdown.selectByValue(selectedLanguage);
-        driver.findElement(Constants.LANG_SUBMIT_BUTTON).click();
+        driver.findElement(LANG_SUBMIT_BUTTON).click();
     }
 }

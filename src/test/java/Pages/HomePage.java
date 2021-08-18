@@ -1,14 +1,17 @@
 package Pages;
 
-import General.Constants;
 import General.Methods;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomePage {
 
     //properties
     private WebDriver driver;
     private final String MAIN_URL = "https://en.wikipedia.org/";
+    private final By HOME_LOGIN_LINK = By.id("pt-login");
+    private final By CREATE_ACC_LINK = By.id("pt-createaccount");
 
     //constructor
     public HomePage(WebDriver driver){
@@ -17,16 +20,16 @@ public class HomePage {
 
     //methods
     public void clickLoginLink(){
-        if (Methods.waitingForLoad(Constants.HOME_LOGIN_LINK, driver)){
-            driver.findElement(Constants.HOME_LOGIN_LINK).click();
+        if (Methods.waitingForLoad(ExpectedConditions.elementToBeClickable(HOME_LOGIN_LINK), driver)){
+            driver.findElement(HOME_LOGIN_LINK).click();
         }else{
             System.out.println("Cannot find login link.");
         }
     }
 
     public void ClickRegLink() {
-        if (Methods.waitingForLoad(Constants.REG_CREATE_ACC_LINK, driver)){
-            driver.findElement(Constants.REG_CREATE_ACC_LINK).click();
+        if (Methods.waitingForLoad(CREATE_ACC_LINK, driver)){
+            driver.findElement(CREATE_ACC_LINK).click();
         }else{
             System.out.println("Cannot find registration link.");
         }

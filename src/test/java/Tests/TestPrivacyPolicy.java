@@ -7,6 +7,7 @@ import org.junit.jupiter.api.*;
 public class TestPrivacyPolicy extends TestEnvironment {
 
     private PrivacyPolicy privacyPolicy;
+    private String PP_LANDING_LINK = "https://foundation.wikimedia.org/wiki/Privacy_policy";
 
     @Test
     @DisplayName("Adatkezelési nyilatkozat használata")
