@@ -1,0 +1,91 @@
+[ {
+  "uid" : "233470bc26d601a7",
+  "name" : "searchFramework()",
+  "time" : {
+    "start" : 1629321418919,
+    "stop" : 1629321430852,
+    "duration" : 11933
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c2fea54117427dde",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1629321418238,
+    "stop" : 1629321418916,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9485aa312ce25ccc",
+  "name" : "loginWikipedia()",
+  "time" : {
+    "start" : 1629321405251,
+    "stop" : 1629321418161,
+    "duration" : 12910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ffbc6d909bd40bd",
+  "name" : "Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1629321433278,
+    "stop" : 1629321433438,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bd6ca6589cad42ee",
+  "name" : "searchSelenium()",
+  "time" : {
+    "start" : 1629321430862,
+    "stop" : 1629321432433,
+    "duration" : 1571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca224eb8fe9081db",
+  "name" : "Bejelentkezés",
+  "time" : {
+    "start" : 1629321432442,
+    "stop" : 1629321433263,
+    "duration" : 821
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a49653390858080c",
+  "name" : "Nyelv megváltoztatása angolról magyarra.",
+  "time" : {
+    "start" : 1629321433809,
+    "stop" : 1629321433973,
+    "duration" : 164
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1a85d22b2d3acf26",
+  "name" : "Több oldalas lista bejárása.",
+  "time" : {
+    "start" : 1629321433633,
+    "stop" : 1629321433803,
+    "duration" : 170
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2fbbcc2e5433beb",
+  "name" : "Regisztráció",
+  "time" : {
+    "start" : 1629321433453,
+    "stop" : 1629321433616,
+    "duration" : 163
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
