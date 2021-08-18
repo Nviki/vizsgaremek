@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 
 public class Constants {
 
+    // Ide csak tesztadatokat írni
+    // Username, pass Tesztbe, By-ok oldalakhoz
+
     //HomePage
     public static final String MAIN_URL = "https://en.wikipedia.org/";
     public static final By HOME_LOGIN_LINK = By.id("pt-login");
@@ -36,7 +39,6 @@ public class Constants {
     //MainPageHistory
     public static final By MPH_lINK = By.id("ca-history");
     public static final By MPH_OLDER_50 = By.xpath("//*[@id=\"mw-content-text\"]/a[2]");
-
 
     //Language
     public static final By LANG_PREF_lINK = By.id("pt-preferences");

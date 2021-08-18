@@ -12,7 +12,20 @@ public class Methods {
     public static boolean waitingForLoad(By value, WebDriver driver){
         wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(value));
-        wait.until(ExpectedConditions.elementToBeClickable(value));
         return driver.findElement(value).isDisplayed();
     }
+
+    /*public static boolean waitingForLoad(ExpectedConditions condition, WebDriver driver){
+        boolean result = true;
+        try {
+            wait = new WebDriverWait(driver,10);
+            wait.until(condition);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            result = false;
+        }
+        return result;
+    }*/
+
 }

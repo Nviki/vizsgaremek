@@ -8,6 +8,7 @@ public class HomePage {
 
     //properties
     private WebDriver driver;
+    private final String MAIN_URL = "https://en.wikipedia.org/";
 
     //constructor
     public HomePage(WebDriver driver){
@@ -30,4 +31,9 @@ public class HomePage {
             System.out.println("Cannot find registration link.");
         }
     }
+    public void clickMainLink() {
+        driver.navigate().to(MAIN_URL);
+    }
+
+
 }
