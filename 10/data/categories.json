@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=\"mw-content-text\"]/div[1]/ul[1]/li[1]/a (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "searchFramework()",
+        "uid" : "7dff60a9049e3628",
+        "parentUid" : "44016ea50ab95db02f6ce5c0c3d8cdc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629659392763,
+          "stop" : 1629659404506,
+          "duration" : 11743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44016ea50ab95db02f6ce5c0c3d8cdc7"
+    }, {
+      "name" : "element not interactable: Element is not currently visible and may not be manipulated\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.dFLva8}, goog:chromeOptions: {debuggerAddress: localhost:36987}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 691f686d3e2cdf89641452c3795be51c",
+      "children" : [ {
+        "name" : "Nyelv megváltoztatása angolról magyarra.",
+        "uid" : "4c8389a58b1224c3",
+        "parentUid" : "a1e0c8a85227d9177cfa2d76825ec71a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629659423230,
+          "stop" : 1629659429640,
+          "duration" : 6410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1e0c8a85227d9177cfa2d76825ec71a"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"wpCreateaccount\"] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Regisztráció",
+        "uid" : "b6f7485f9c38bd67",
+        "parentUid" : "7ac97e86c9afabc28eaf361b9da1e088",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629659441771,
+          "stop" : 1629659453827,
+          "duration" : 12056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ac97e86c9afabc28eaf361b9da1e088"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <Your preferences have been saved.> but was: <>",
+      "children" : [ {
+        "name" : "Elnémított lapok beállítása fájlból",
+        "uid" : "3a02aacc69de69dd",
+        "parentUid" : "da0dbc4ec4fe988c68156fb3aeed98a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629659429643,
+          "stop" : 1629659441753,
+          "duration" : 12110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da0dbc4ec4fe988c68156fb3aeed98a9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

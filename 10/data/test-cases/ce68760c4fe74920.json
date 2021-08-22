@@ -1,0 +1,87 @@
+{
+  "uid" : "ce68760c4fe74920",
+  "name" : "Adatok listázása",
+  "fullName" : "Tests.TestSearchForWord.Test_SearchForWord",
+  "historyId" : "6e5a9639838192d137cd2e82d380aab5",
+  "time" : {
+    "start" : 1629659512724,
+    "stop" : 1629659514516,
+    "duration" : 1792
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629659512725,
+      "stop" : 1629659513438,
+      "duration" : 713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629659514448,
+      "stop" : 1629659514515,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-136"
+  }, {
+    "name" : "thread",
+    "value" : "3044@fv-az74-136.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestSearchForWord"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestSearchForWord"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_SearchForWord"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestSearchForWord"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce68760c4fe74920.json",
+  "parameterValues" : [ ]
+}
