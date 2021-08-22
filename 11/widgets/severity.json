@@ -1,0 +1,121 @@
+[ {
+  "uid" : "845f6d73f7e0e5f6",
+  "name" : "Regisztráció",
+  "time" : {
+    "start" : 1629670538739,
+    "stop" : 1629670550739,
+    "duration" : 12000
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea11f75a8913c9c4",
+  "name" : "searchSelenium()",
+  "time" : {
+    "start" : 1629670502172,
+    "stop" : 1629670503697,
+    "duration" : 1525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17c8e5b496c8e3cf",
+  "name" : "Bejelentkezés",
+  "time" : {
+    "start" : 1629670503718,
+    "stop" : 1629670508425,
+    "duration" : 4707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cd50fddce941fa0",
+  "name" : "Nyelv megváltoztatása angolról magyarra.",
+  "time" : {
+    "start" : 1629670520257,
+    "stop" : 1629670526620,
+    "duration" : 6363
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8f7af9d6e391f09c",
+  "name" : "Adatok listázása",
+  "time" : {
+    "start" : 1629670610741,
+    "stop" : 1629670612516,
+    "duration" : 1775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6eb178e1b5fea7cb",
+  "name" : "Új aláírás létrehozása",
+  "time" : {
+    "start" : 1629670509711,
+    "stop" : 1629670520254,
+    "duration" : 10543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3e5e59372ea126f",
+  "name" : "searchFramework()",
+  "time" : {
+    "start" : 1629670490163,
+    "stop" : 1629670502162,
+    "duration" : 11999
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4963a27111ac7e21",
+  "name" : "Elnémított lapok beállítása fájlból",
+  "time" : {
+    "start" : 1629670526623,
+    "stop" : 1629670538733,
+    "duration" : 12110
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "17b1c24f92a4939d",
+  "name" : "Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1629670508435,
+    "stop" : 1629670509703,
+    "duration" : 1268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1133c31e78e0dc26",
+  "name" : "Több oldalas lista bejárása.",
+  "time" : {
+    "start" : 1629670550745,
+    "stop" : 1629670610721,
+    "duration" : 59976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55dc609090ebc2b8",
+  "name" : "loginWikipedia()",
+  "time" : {
+    "start" : 1629670477004,
+    "stop" : 1629670489334,
+    "duration" : 12330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e13d1ffdfd316e1",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1629670489425,
+    "stop" : 1629670490159,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
