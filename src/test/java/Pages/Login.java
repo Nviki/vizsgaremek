@@ -1,6 +1,5 @@
 package Pages;
 
-import General.Constants;
 import General.Methods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

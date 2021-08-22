@@ -8,6 +8,7 @@ public class TestPrivacyPolicy extends TestEnvironment {
 
     private PrivacyPolicy privacyPolicy;
     private String PP_LANDING_LINK = "https://foundation.wikimedia.org/wiki/Privacy_policy";
+    private String word = "Privacy Policy";
 
     @Test
     @DisplayName("Adatkezelési nyilatkozat használata")
@@ -15,7 +16,6 @@ public class TestPrivacyPolicy extends TestEnvironment {
         privacyPolicy = new PrivacyPolicy(driver);
         privacyPolicy.PrivacyPolicy();
 
-        Assertions.assertTrue(driver.getPageSource().contains("Privacy Policy"), "Content not found.");
+        Assertions.assertTrue(driver.getPageSource().contains(word), "Content not found.");
     }
-    //itt mit kell még tesztelni?
 }

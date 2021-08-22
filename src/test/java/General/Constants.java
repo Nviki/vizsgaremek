@@ -7,8 +7,13 @@ public class Constants {
     /*Ide csak tesztadatokat írni
     Username, pass Tesztbe, By-ok oldalakhoz*/
 
-    //Language
-
+    //Preferences
     public static final String LANG_VALUE = "hu";
+
+    //SearchForWord
+    public static final String SEARCH_VALUE = "auto";
+
+    //Signature
+    public static final String SIGN_VALUE = "New signature [[User:Nviki1|Nviki1]] ([[User talk:Nviki1|talk]])";
 
 }

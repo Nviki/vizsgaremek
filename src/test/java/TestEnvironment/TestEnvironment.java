@@ -22,7 +22,7 @@ public class TestEnvironment {
         options.addArguments("start-maximized"); // teljes képernyőőben való használat
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        //options.addArguments("--headless");  //a gitHub használatához visszatenni
+        options.addArguments("--headless");  //a gitHub használatához visszatenni
         driver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
