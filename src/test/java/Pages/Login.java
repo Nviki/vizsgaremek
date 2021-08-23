@@ -24,7 +24,7 @@ public class Login {
              driver.findElement(LOGIN_PASSWORD).sendKeys(password);
              driver.findElement(LOGIN_BUTTON).click();
         } else {
-            System.out.println("Error number 2");
+            System.out.println("Cannot find login button.");
         }
     }
 }

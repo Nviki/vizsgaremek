@@ -1,6 +1,7 @@
 package Pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,7 +19,6 @@ public class Preferences {
     private final By SIGN_INPUT = By.xpath("//*[@id=\"ooui-php-39\"]");
     private final By NOTIFICATION_TAB = By.xpath("//*[@id=\"ooui-php-417\"]");
     public static final By NOTIFICATION_MUTED_PAGES = By.xpath("//*[@id=\"ooui-47\"]");
-    //*[@id="ooui-47"]
     private final By SUBMIT_BUTTON = By.xpath("//*[@id=\"prefcontrol\"]/button");
 
     public Preferences(WebDriver driver) {
@@ -59,6 +59,19 @@ public class Preferences {
     }
 
     public void NotificationSubmit () {
+        driver.findElement(SUBMIT_BUTTON).click();
+    }
+
+    public void DeleteNotification () {
+        driver.findElement(PREF_lINK).click();
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(NOTIFICATION_TAB));
+        driver.findElement(NOTIFICATION_TAB).click();
+        String inputText = driver.findElement(NOTIFICATION_MUTED_PAGES).getAttribute("value");
+        while(inputText != null) {
+                driver.findElement(NOTIFICATION_MUTED_PAGES).sendKeys(Keys.BACK_SPACE);
+                break;
+        }
         driver.findElement(SUBMIT_BUTTON).click();
     }
 }

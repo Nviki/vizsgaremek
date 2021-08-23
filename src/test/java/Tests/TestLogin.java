@@ -11,8 +11,8 @@ public class TestLogin extends TestEnvironment {
 
     private Login login;
     private final String HOME_LOGIN_URL = "https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page";
-    public final String LOGIN_USERNAME_VALUE = "Nviki1";
-    public final String LOGIN_PASSWORD_VALUE = "Viki1234";
+    protected final String LOGIN_USERNAME_VALUE = "Nviki1";
+    protected final String LOGIN_PASSWORD_VALUE = "Viki1234";
     private final By LOGIN_USERNAME_COMPARE = By.xpath("//*[@id=\"pt-userpage\"]/a");
 
     @Test
@@ -29,6 +29,6 @@ public class TestLogin extends TestEnvironment {
         String actual = driver.findElement(LOGIN_USERNAME_COMPARE).getText();
         Assertions.assertEquals(expected,actual);
 
-        Assertions.assertTrue(driver.getPageSource().contains("Nviki1"), "Username not found.");
+        Assertions.assertTrue(driver.getPageSource().contains(LOGIN_USERNAME_VALUE), "Username not found.");
     }
 }

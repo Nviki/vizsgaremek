@@ -12,6 +12,7 @@ public class HomePage {
     private final String MAIN_URL = "https://en.wikipedia.org/";
     private final By HOME_LOGIN_LINK = By.id("pt-login");
     private final By CREATE_ACC_LINK = By.id("pt-createaccount");
+    private final By HOME_LOGOUT_LINK = By.id("pt-logout");
 
     //constructor
     public HomePage(WebDriver driver){
@@ -36,6 +37,14 @@ public class HomePage {
     }
     public void clickMainLink() {
         driver.navigate().to(MAIN_URL);
+    }
+
+    public void clickLogoutLink() {
+        if (Methods.waitingForLoad(HOME_LOGOUT_LINK, driver)){
+            driver.findElement(HOME_LOGOUT_LINK).click();
+        }else{
+            System.out.println("Cannot find logout link.");
+        }
     }
 
 

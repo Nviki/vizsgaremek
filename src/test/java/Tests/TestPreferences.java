@@ -95,8 +95,22 @@ public class TestPreferences extends TestEnvironment {
         }
         preferences.NotificationSubmit();
 
-        String expected = alert;
+        /*String expected = alert;
         String actual = driver.findElement(ALERT).getText();
-        Assertions.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);*/
+    }
+
+    @Test
+    @DisplayName("Elnémított lapok törlése")
+    public void Test_DeleteNotification() {
+        homePage = new HomePage(driver);
+        homePage.clickLoginLink();
+
+        login = new Login(driver);
+        testLogin = new TestLogin();
+        login.Login(testLogin.LOGIN_USERNAME_VALUE, testLogin.LOGIN_PASSWORD_VALUE);
+
+        preferences = new Preferences(driver);
+        preferences.DeleteNotification();
     }
 }

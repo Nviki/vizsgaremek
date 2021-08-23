@@ -10,7 +10,7 @@ public class Constants {
     //Preferences
     public static final String LANG_VALUE = "hu";
 
-    //SearchForWord
+    //Search
     public static final String SEARCH_VALUE = "auto";
 
     //Signature
