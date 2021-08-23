@@ -17,7 +17,7 @@ public class Preferences {
     private final By PREF_lINK = By.id("pt-preferences");
     private final By LANG_DROPDOWN = By.xpath("//*[@id=\"ooui-php-29\"]");
     private final By SIGN_INPUT = By.xpath("//*[@id=\"ooui-php-39\"]");
-    private final By NOTIFICATION_TAB = By.xpath("//*[@id=\"ooui-php-417\"]");
+    private final By NOTIFICATION_TAB = By.xpath("//*[@id=\"ooui-php-415\"]");
     public static final By NOTIFICATION_MUTED_PAGES = By.xpath("//*[@id=\"ooui-47\"]");
     private final By SUBMIT_BUTTON = By.xpath("//*[@id=\"prefcontrol\"]/button");
 
