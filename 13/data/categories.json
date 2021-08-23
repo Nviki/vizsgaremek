@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"wpCreateaccount\"] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Regisztráció",
+        "uid" : "59256707e27f17bf",
+        "parentUid" : "7ac97e86c9afabc28eaf361b9da1e088",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629746695110,
+          "stop" : 1629746707236,
+          "duration" : 12126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ac97e86c9afabc28eaf361b9da1e088"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

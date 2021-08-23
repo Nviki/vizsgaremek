@@ -1,0 +1,107 @@
+{
+  "uid" : "27e0f76b57409b68",
+  "name" : "Kijelentkezés",
+  "fullName" : "Tests.TestLogout.Test_Logout",
+  "historyId" : "417c1d17cc994727f66eeac9f9fe1562",
+  "time" : {
+    "start" : 1629746628608,
+    "stop" : 1629746647109,
+    "duration" : 18501
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629746628629,
+      "stop" : 1629746639876,
+      "duration" : 11247
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629746647018,
+      "stop" : 1629746647097,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-6"
+  }, {
+    "name" : "thread",
+    "value" : "2926@fv-az83-6.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestLogout"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestLogout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Logout"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestLogout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ede8c069bbbd050a",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/12//#testresult/ede8c069bbbd050a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629745221424,
+          "stop" : 1629745237875,
+          "duration" : 16451
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "27e0f76b57409b68.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "25177784bd2c5a1e",
+  "name" : "Keresési találatok lementése fájlba",
+  "time" : {
+    "start" : 1629746770278,
+    "stop" : 1629746771899,
+    "duration" : 1621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "619d3bdfedd10d0",
+  "name" : "Több oldalas lista bejárása.",
+  "time" : {
+    "start" : 1629746707254,
+    "stop" : 1629746768402,
+    "duration" : 61148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adb6bb49482327a8",
+  "name" : "Adatok listázása",
+  "time" : {
+    "start" : 1629746768411,
+    "stop" : 1629746770274,
+    "duration" : 1863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "315e3e658914fb66",
+  "name" : "Nyelv megváltoztatása angolról magyarra.",
+  "time" : {
+    "start" : 1629746665619,
+    "stop" : 1629746672638,
+    "duration" : 7019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffc0a663f1f02289",
+  "name" : "Bejelentkezés",
+  "time" : {
+    "start" : 1629746647285,
+    "stop" : 1629746652682,
+    "duration" : 5397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fcfba65f6964286",
+  "name" : "Új aláírás létrehozása",
+  "time" : {
+    "start" : 1629746654258,
+    "stop" : 1629746665615,
+    "duration" : 11357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b55b04b2a571ab79",
+  "name" : "Elnémított lapok törlése",
+  "time" : {
+    "start" : 1629746672645,
+    "stop" : 1629746681124,
+    "duration" : 8479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f9ce3bfd37a51ef",
+  "name" : "Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1629746652696,
+    "stop" : 1629746654222,
+    "duration" : 1526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98d445481bc88648",
+  "name" : "Elnémított lapok beállítása fájlból",
+  "time" : {
+    "start" : 1629746681129,
+    "stop" : 1629746695106,
+    "duration" : 13977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59256707e27f17bf",
+  "name" : "Regisztráció",
+  "time" : {
+    "start" : 1629746695110,
+    "stop" : 1629746707236,
+    "duration" : 12126
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "27e0f76b57409b68",
+  "name" : "Kijelentkezés",
+  "time" : {
+    "start" : 1629746628608,
+    "stop" : 1629746647109,
+    "duration" : 18501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,176 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Tests.TestLogout",
+    "children" : [ {
+      "name" : "Kijelentkezés",
+      "uid" : "27e0f76b57409b68",
+      "parentUid" : "8dd13be7856d1403205136eefd84e03a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746628608,
+        "stop" : 1629746647109,
+        "duration" : 18501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8dd13be7856d1403205136eefd84e03a"
+  }, {
+    "name" : "Tests.TestLogin",
+    "children" : [ {
+      "name" : "Bejelentkezés",
+      "uid" : "ffc0a663f1f02289",
+      "parentUid" : "2912992d006be159d04667582dc79365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746647285,
+        "stop" : 1629746652682,
+        "duration" : 5397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2912992d006be159d04667582dc79365"
+  }, {
+    "name" : "Tests.TestPrivacyPolicy",
+    "children" : [ {
+      "name" : "Adatkezelési nyilatkozat használata",
+      "uid" : "8f9ce3bfd37a51ef",
+      "parentUid" : "11e7b48ee2c30076b9b36572f714c5cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746652696,
+        "stop" : 1629746654222,
+        "duration" : 1526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "11e7b48ee2c30076b9b36572f714c5cf"
+  }, {
+    "name" : "Tests.TestPreferences",
+    "children" : [ {
+      "name" : "Új aláírás létrehozása",
+      "uid" : "4fcfba65f6964286",
+      "parentUid" : "a87dfc3f445bdba55b7ea130d18cd1b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746654258,
+        "stop" : 1629746665615,
+        "duration" : 11357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Nyelv megváltoztatása angolról magyarra.",
+      "uid" : "315e3e658914fb66",
+      "parentUid" : "a87dfc3f445bdba55b7ea130d18cd1b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746665619,
+        "stop" : 1629746672638,
+        "duration" : 7019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Elnémított lapok törlése",
+      "uid" : "b55b04b2a571ab79",
+      "parentUid" : "a87dfc3f445bdba55b7ea130d18cd1b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746672645,
+        "stop" : 1629746681124,
+        "duration" : 8479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Elnémított lapok beállítása fájlból",
+      "uid" : "98d445481bc88648",
+      "parentUid" : "a87dfc3f445bdba55b7ea130d18cd1b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746681129,
+        "stop" : 1629746695106,
+        "duration" : 13977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a87dfc3f445bdba55b7ea130d18cd1b3"
+  }, {
+    "name" : "Tests.TestRegistration",
+    "children" : [ {
+      "name" : "Regisztráció",
+      "uid" : "59256707e27f17bf",
+      "parentUid" : "f004299286a2d909a5483ce3d6fd6354",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629746695110,
+        "stop" : 1629746707236,
+        "duration" : 12126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f004299286a2d909a5483ce3d6fd6354"
+  }, {
+    "name" : "Tests.TestMainPageHistory",
+    "children" : [ {
+      "name" : "Több oldalas lista bejárása.",
+      "uid" : "619d3bdfedd10d0",
+      "parentUid" : "b764a4dbf3d8b1c5dca9e49c92a4e62a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746707254,
+        "stop" : 1629746768402,
+        "duration" : 61148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b764a4dbf3d8b1c5dca9e49c92a4e62a"
+  }, {
+    "name" : "Tests.TestSearch",
+    "children" : [ {
+      "name" : "Adatok listázása",
+      "uid" : "adb6bb49482327a8",
+      "parentUid" : "3e140dc34bf7cd86bbb1055acd480613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746768411,
+        "stop" : 1629746770274,
+        "duration" : 1863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Keresési találatok lementése fájlba",
+      "uid" : "25177784bd2c5a1e",
+      "parentUid" : "3e140dc34bf7cd86bbb1055acd480613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629746770278,
+        "stop" : 1629746771899,
+        "duration" : 1621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e140dc34bf7cd86bbb1055acd480613"
+  } ],
+  "name" : "suites"
+}
