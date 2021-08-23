@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"wpCreateaccount\"] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Regisztráció",
+        "uid" : "20dffa142cb30925",
+        "parentUid" : "7ac97e86c9afabc28eaf361b9da1e088",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629745235257,
+          "stop" : 1629745247552,
+          "duration" : 12295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ac97e86c9afabc28eaf361b9da1e088"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"ooui-php-417\"] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Elnémított lapok törlése",
+        "uid" : "1793eef2fa8e3a24",
+        "parentUid" : "63d655bffa0bb587af59674d6b02641e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629745259535,
+          "stop" : 1629745278730,
+          "duration" : 19195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Elnémított lapok beállítása fájlból",
+        "uid" : "5deda200c44878ca",
+        "parentUid" : "63d655bffa0bb587af59674d6b02641e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629745278745,
+          "stop" : 1629745297392,
+          "duration" : 18647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63d655bffa0bb587af59674d6b02641e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

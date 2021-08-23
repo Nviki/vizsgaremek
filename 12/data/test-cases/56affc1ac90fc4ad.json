@@ -1,0 +1,116 @@
+{
+  "uid" : "56affc1ac90fc4ad",
+  "name" : "Új aláírás létrehozása",
+  "fullName" : "Tests.TestPreferences.Test_Signature",
+  "historyId" : "a324c711d1bd282e39366d6ba017d6e2",
+  "time" : {
+    "start" : 1629745239559,
+    "stop" : 1629745251009,
+    "duration" : 11450
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629745239568,
+      "stop" : 1629745240552,
+      "duration" : 984
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629745250929,
+      "stop" : 1629745251009,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "2973@fv-az28-515.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Signature"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6eb178e1b5fea7cb",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/11//#testresult/6eb178e1b5fea7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629670509711,
+          "stop" : 1629670520254,
+          "duration" : 10543
+        }
+      }, {
+        "uid" : "f993a40c753464ff",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/10//#testresult/f993a40c753464ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629659411796,
+          "stop" : 1629659423227,
+          "duration" : 11431
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "56affc1ac90fc4ad.json",
+  "parameterValues" : [ ]
+}

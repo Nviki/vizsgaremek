@@ -1,0 +1,118 @@
+{
+  "uid" : "6135f65fb9161109",
+  "name" : "Nyelv megváltoztatása angolról magyarra.",
+  "fullName" : "Tests.TestPreferences.Test_Language",
+  "historyId" : "1031301476f407dbecdde00b43ab8d9a",
+  "time" : {
+    "start" : 1629745251016,
+    "stop" : 1629745259529,
+    "duration" : 8513
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629745251019,
+      "stop" : 1629745252002,
+      "duration" : 983
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629745259455,
+      "stop" : 1629745259529,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "2973@fv-az28-515.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Language"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6cd50fddce941fa0",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/11//#testresult/6cd50fddce941fa0",
+        "status" : "broken",
+        "statusDetails" : "element not interactable: Element is not currently visible and may not be manipulated\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.202', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.SXDurA}, goog:chromeOptions: {debuggerAddress: localhost:33379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 664e9b228f5d87012b259f06aafc5d50",
+        "time" : {
+          "start" : 1629670520257,
+          "stop" : 1629670526620,
+          "duration" : 6363
+        }
+      }, {
+        "uid" : "4c8389a58b1224c3",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/10//#testresult/4c8389a58b1224c3",
+        "status" : "broken",
+        "statusDetails" : "element not interactable: Element is not currently visible and may not be manipulated\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.dFLva8}, goog:chromeOptions: {debuggerAddress: localhost:36987}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 691f686d3e2cdf89641452c3795be51c",
+        "time" : {
+          "start" : 1629659423230,
+          "stop" : 1629659429640,
+          "duration" : 6410
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6135f65fb9161109.json",
+  "parameterValues" : [ ]
+}
