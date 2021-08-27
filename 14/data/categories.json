@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-713', ip: '10.1.0.91', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DXf1uL}, goog:chromeOptions: {debuggerAddress: localhost:45035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cf31de52b77da127c31ad92527bfa2a3",
+      "children" : [ {
+        "name" : "Nyelv megváltoztatása angolról magyarra.",
+        "uid" : "1a9b93b73692090",
+        "parentUid" : "11d027918d65c703a8bd36eabffd2f0c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630068197723,
+          "stop" : 1630068204194,
+          "duration" : 6471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11d027918d65c703a8bd36eabffd2f0c"
+    }, {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-713', ip: '10.1.0.91', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ecOZvO}, goog:chromeOptions: {debuggerAddress: localhost:39109}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 89ce9065a378052f3ffe3d3452b14a04",
+      "children" : [ {
+        "name" : "Elnémított lapok törlése",
+        "uid" : "8e1d507323e6e4d4",
+        "parentUid" : "f4d123e3836171797ed235d8aeddbc83",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630068204211,
+          "stop" : 1630068211169,
+          "duration" : 6958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4d123e3836171797ed235d8aeddbc83"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"wpCreateaccount\"] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Regisztráció",
+        "uid" : "b77e0feecc5569d",
+        "parentUid" : "7ac97e86c9afabc28eaf361b9da1e088",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630068223631,
+          "stop" : 1630068235592,
+          "duration" : 11961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ac97e86c9afabc28eaf361b9da1e088"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

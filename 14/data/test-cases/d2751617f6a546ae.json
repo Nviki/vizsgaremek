@@ -1,0 +1,137 @@
+{
+  "uid" : "d2751617f6a546ae",
+  "name" : "Elnémított lapok beállítása fájlból",
+  "fullName" : "Tests.TestPreferences.Test_Notification",
+  "historyId" : "7b74daf186a856727f9d7dd93c2141b",
+  "time" : {
+    "start" : 1630068211188,
+    "stop" : 1630068223610,
+    "duration" : 12422
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1630068211190,
+      "stop" : 1630068212010,
+      "duration" : 820
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1630068223541,
+      "stop" : 1630068223610,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-713"
+  }, {
+    "name" : "thread",
+    "value" : "3360@fv-az39-713.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Notification"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestPreferences"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "98d445481bc88648",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/13//#testresult/98d445481bc88648",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629746681129,
+          "stop" : 1629746695106,
+          "duration" : 13977
+        }
+      }, {
+        "uid" : "5deda200c44878ca",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/12//#testresult/5deda200c44878ca",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"ooui-php-417\"] (tried for 10 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1629745278745,
+          "stop" : 1629745297392,
+          "duration" : 18647
+        }
+      }, {
+        "uid" : "4963a27111ac7e21",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/11//#testresult/4963a27111ac7e21",
+        "status" : "failed",
+        "statusDetails" : "expected: <Your preferences have been saved.> but was: <>",
+        "time" : {
+          "start" : 1629670526623,
+          "stop" : 1629670538733,
+          "duration" : 12110
+        }
+      }, {
+        "uid" : "3a02aacc69de69dd",
+        "reportUrl" : "https://Nviki.github.io/vizsgaremek/10//#testresult/3a02aacc69de69dd",
+        "status" : "failed",
+        "statusDetails" : "expected: <Your preferences have been saved.> but was: <>",
+        "time" : {
+          "start" : 1629659429643,
+          "stop" : 1629659441753,
+          "duration" : 12110
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d2751617f6a546ae.json",
+  "parameterValues" : [ ]
+}
